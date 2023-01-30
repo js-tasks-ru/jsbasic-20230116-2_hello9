@@ -1,12 +1,7 @@
-function factorial(n) {
-  if (n == 0 || n == 1){
-    return ("Факториал "+ n +": равен 1");
-  } else {
-    let i = 1;
-    for(; i < n; i++) {
-     c = n*(n - i); 
-     print(c); 
-    }  
-    return ("Факториал "+ n +": равен " + c);
-  }
-} 
+function factorial(n){
+ let sum = 1;
+ for (let i = 0; i < n; i++){
+   sum = sum * (i+1);
+ } 
+  return sum;
+}
