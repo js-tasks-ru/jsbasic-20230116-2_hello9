@@ -9,4 +9,4 @@ function factorial(n) {
     }  
     return ("Факториал "+ n +": равен " + c);
   }
-}
+} 

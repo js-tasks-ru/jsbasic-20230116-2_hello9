@@ -28,4 +28,4 @@ function sayHello() {
   } else {
     print('Некорректное имя');
   }
-}
+} 

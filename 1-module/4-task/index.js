@@ -7,3 +7,4 @@ function checkSpam(str) {
     return false;
   }
 }
+ 
